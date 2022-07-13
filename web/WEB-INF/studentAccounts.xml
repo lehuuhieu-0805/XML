@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+    <student id="khanh" class="SE0661">
+        <lastname>
+            Hieu
+        </lastname>
+        <middlename>
+            T.
+        </middlename>
+        <firstname>
+            Khanh
+        </firstname>
+        <sex>
+            1
+        </sex>
+        <password>
+            1
+        </password>
+        <address>
+            45 Nguyen Van A
+        </address>
+        <status>
+            studying
+        </status>
+    </student>
+    <student id="fb45678" class="SE0668">
+        <lastname>
+            Anh
+        </lastname>
+        <middlename>
+            3
+        </middlename>
+        <firstname>
+            X
+        </firstname>
+        <sex>
+            0
+        </sex>
+        <password>
+            123456
+        </password>
+        <address>
+            23 Nguyen Van B
+        </address>
+        <status>
+            dropout
+        </status>
+    </student>
+    <student id="sb45678" class="SB0552">
+        <lastname>
+            Son
+        </lastname>
+        <middlename>
+            
+        </middlename>
+        <firstname>
+            Dai Ca
+        </firstname>
+        <sex>
+            1
+        </sex>
+        <password>
+            abc
+        </password>
+        <address>
+            23 Bo LA
+        </address>
+        <status>
+            dropout
+        </status>
+    </student>
+    <student id="se34952" class="SE0662">
+        <lastname>
+            Tran
+        </lastname>
+        <middlename>
+            Tan
+        </middlename>
+        <firstname>
+            Tran
+        </firstname>
+        <sex>
+            1
+        </sex>
+        <password>
+            24gh
+        </password>
+        <address>
+            45 ABC
+        </address>
+        <status>
+            break
+        </status>
+    </student>
+    <student id="se06065" class="SE0663">
+        <lastname>
+            Truc
+        </lastname>
+        <middlename>
+            Hu
+        </middlename>
+        <firstname>
+            Phong
+        </firstname>
+        <sex>
+            0
+        </sex>
+        <password>
+            5678
+        </password>
+        <address>
+            45 Nguyen Van C
+        </address>
+        <status>
+            studying
+        </status>
+    </student>
+</students>

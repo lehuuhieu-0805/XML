@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>STUDENT_DB_FILE</param-name>
+        <param-value>WEB-INF/studentAccounts.xml</param-value>
+    </context-param>
+    <listener>
+        <description>ServletContextListener</description>
+        <listener-class>listener.MyContextServletListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>DispatchController</servlet-name>
+        <servlet-class>controller.DispatchController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DispatchController</servlet-name>
+        <url-pattern>/DispatchController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>onlineBanking.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

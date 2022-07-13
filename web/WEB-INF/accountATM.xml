@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<customers xmlns:account="abc.vn">
+    <account:allowed username="thihkk" balance="230">
+        <fullname>Thinh DD</fullname>
+        <address>123 Cho Quan</address>
+        <pin>9384</pin>
+        <class>D</class>
+        <transactions>
+            <transaction>
+                <id>233232</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+            <transaction>
+                <id>34564</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+            <transaction>
+                <id>2345</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>0</type>
+            </transaction>
+        </transactions>
+    </account:allowed>
+    <account:expired username="tientt" balance="230">
+        <fullname>Tien TT</fullname>
+        <address>40 ABC</address>
+        <pin>5940</pin>
+        <class>A</class>
+        <transactions>
+            <transaction>
+                <id>23324</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+            <transaction>
+                <id>645</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+            <transaction>
+                <id>4545</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>0</type>
+            </transaction>
+        </transactions>
+    </account:expired>
+    <account:allowed username="hutruc" balance="30">
+        <fullname>Huu Truc</fullname>
+        <address>123 Duong B</address>
+        <pin>8769</pin>
+        <class>D</class>
+        <transactions>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>100</amount>
+                <type>1</type>
+            </transaction>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>20</amount>
+                <type>0</type>
+            </transaction>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+        </transactions>
+    </account:allowed>
+    <account:expired username="vudaica" balance="100">
+        <fullname>Vu Dai Ca</fullname>
+        <address>123 Cau Bang Ky</address>
+        <pin>12345</pin>
+        <class>C</class>
+        <transactions>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+            <transaction>
+                <id>2391312</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+        </transactions>
+    </account:expired>
+    <account:allowed username="khanhkt" balance="130">
+        <fullname>Khanh Kieu</fullname>
+        <address>123 Duong A</address>
+        <pin>1234</pin>
+        <class>D</class>
+        <transactions>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>20</amount>
+                <type>0</type>
+            </transaction>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>100</amount>
+                <type>1</type>
+            </transaction>
+        </transactions>
+    </account:allowed>
+    <account:expired username="dongta" balance="50">
+        <fullname>Ta Dong</fullname>
+        <address>57 To Ky</address>
+        <pin>2234</pin>
+        <class>A</class>
+        <transactions>
+            <transaction>
+                <id>2391311</id>
+                <date>2013/09/23</date>
+                <amount>50</amount>
+                <type>1</type>
+            </transaction>
+        </transactions>
+    </account:expired>
+</customers>
